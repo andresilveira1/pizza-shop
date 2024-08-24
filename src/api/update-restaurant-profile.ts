@@ -1,6 +1,6 @@
 import { api } from '@/lib/axios'
 
-interface UpdateRestaurantProfileProps {
+export interface UpdateRestaurantProfileProps {
   name: string
   description: string | null
 }
